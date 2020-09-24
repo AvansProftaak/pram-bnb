@@ -1,0 +1,310 @@
+* {margin: 0; padding: 0;}
+
+a {text-decoration: none;}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.clearfix {overflow: auto;}
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.top-bar {
+    width: 1000px;
+    background-color:green;
+}
+.top-bar-links {
+    float: left;
+}
+
+.top-bar-links ul{
+    margin: 15px;
+    list-style: none;
+}
+
+.top-bar-links ul li {
+    padding: 0 10px;
+    display: inline-block;
+    border-right: 1px solid white;
+}
+
+.top-bar-links ul li:last-child {
+    border: 0;
+}
+
+.top-bar-links ul li a {
+    color: white;
+}
+
+.site-search {
+    padding: 2px 10px;
+    margin: 15px;
+    float: right;
+    background: white;
+    border-radius: 10px;
+}
+
+.site-search input {
+    border: 0;
+    float: left;
+}
+
+.site-search button {
+    width: 20px;
+    height: 20px;
+    background: url(/bnb2/img/icon/search.png);
+    border: 0;
+}
+
+header .logo {
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+}
+
+header .logo h1 {
+    font-size: 48px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    font-variant: normal;
+}
+
+
+header .socialmedia {
+    float: right; 
+    margin-top: 40px;
+}
+
+header .socialmedia ul { 
+    list-style: none;
+}
+
+header .socialmedia ul li {
+    margin-left: 10px;    
+    display: inline;
+}
+
+header .socialmedia ul li a {
+    padding: 10px;
+    background: green;
+    color: white;
+}
+
+nav {
+    margin-top: 20px;
+    background: green;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10px; margin-bottom: 10px;
+    margin-inline: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+div.intro {
+    width: 970px;
+    margin: 15px;
+}
+
+div.intro div.introimage {
+    width: 400px;
+    float: left;
+}
+
+div.intro div.introimage img {
+    width: 400px;
+    height: 400px;
+}
+
+div.intro div.introtext {
+    margin-left: 30px;
+    width: 540px;
+    float: right;
+}
+
+div.intro div.introtext h1 {
+    margin-top: 150px;
+    font-size: 48px;
+}
+
+div.intro div.introtext p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+div.intro div.introtext a {
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+    background: green;
+    padding: 5px;
+    float: right;
+}
+
+div.home-content {
+    width: 1000px;
+    background-color: whitesmoke;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+div.homecol {
+    margin-left: 15px;
+    width: 300px;
+    float: left;
+}
+
+div.homecol h2 {
+    margin: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+    margin-bottom: 20px;
+}
+
+div.homecol img {
+    width: 283px;
+    border: 0in;
+    margin-left: 15px;
+}
+
+div.homecol p {
+    font-size: 16px;
+    margin-left: 15px;
+    color: gray;
+}
+
+div.homecol a {
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 17px;
+    color: green;
+    float: right;
+}
+
+div.homecol div.why img {
+    width: 64px;
+    height: 64px;
+    float: left;
+    margin-right: 15px;
+}
+
+div.why h3 {
+    color: gray;
+}
+
+div.why p {
+    margin-top: 8px;
+}
+
+div.reviews i {
+    float: left;
+    color: gainsboro;
+}
+
+div.reviews h3 {
+    margin-top: 15px;
+    margin-left: 25px;
+    float: left;
+    color: gray;
+}
+
+div.reviews p {
+    float: left;
+}
+
+div.googlerew img {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+div.footer {
+    width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+div.footercol {
+    width: 231.25px;
+    float: left;
+    margin-left: 15px;
+    border-top: 1px solid green;
+}
+
+div.footercol h4 {
+    margin-top: 15px;
+    text-transform: uppercase;
+    color: gray;
+}
+
+div.footeradres {
+    float: left;
+    margin-top: 20px;
+    color: gray;
+}
+
+div.footeradres i {
+    float: left;
+    margin-top: 1px;
+    color: green;
+}
+
+div.footeradres h5 {
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+div.footeradres p {
+    float: left;
+    margin-left: 10px;
+    margin-block: 5px;
+    font-size: 16px;
+}
+
+div.telmail {
+    float: left;
+    margin-top: 5px;
+}
+
+div.telmail i {
+    color: green;
+    margin-top: 1px;
+}
+
+ul.navigatie {
+    float: left;
+    margin-top: 20px;
+    list-style: none;
+}
+
+ul.navigatie li {
+    color: green;
+    margin-bottom: 10px;
+}
+
+ul.navigatie a {
+    color: gray;
+}
